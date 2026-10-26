@@ -1,0 +1,30 @@
+{
+  "name": "prism-agent-rules",
+  "version": "1.0.0",
+  "description": "Generator for AI coding-agent rule files: Cursor .mdc, .cursorrules, AGENTS.md, CLAUDE.md, Copilot and Windsurf.",
+  "scripts": {
+    "test": "node --test",
+    "start": "npx --yes serve ."
+  },
+  "keywords": [
+    "cursor",
+    "cursorrules",
+    "agents-md",
+    "claude-code",
+    "copilot",
+    "windsurf",
+    "ai-agents",
+    "vibe-coding",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishyaa06/prism-agent-rules.git"
+  },
+  "homepage": "https://krishyaa06.github.io/prism-agent-rules/",
+  "engines": {
+    "node": ">=18.17"
+  }
+}

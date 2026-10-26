@@ -1,0 +1,28 @@
+    <section class="grid g2 rules">
+      <div class="card form">
+        <div class="card-title"><h2>Project</h2><button class="btn small" id="reset">Reset</button></div>
+        <label class="field"><span>Name</span><input id="name" /></label>
+        <label class="field"><span>What it is (1–3 sentences)</span><textarea id="about" rows="3"></textarea></label>
+        <div class="field"><span>Stack</span><div class="chips" id="stack"></div></div>
+        <div class="field"><span>How the agent should work</span><div class="checks" id="principles"></div></div>
+        <div class="grid g3">
+          <label class="field"><span>Indent</span><select id="indent"><option value="">—</option><option>2 spaces</option><option>4 spaces</option><option>tabs</option></select></label>
+          <label class="field"><span>Quotes</span><select id="quotes"><option value="">—</option><option>double</option><option>single</option></select></label>
+          <label class="field"><span>Naming</span><input id="naming" placeholder="camelCase vars, PascalCase components" /></label>
+        </div>
+        <div class="grid g3">
+          <label class="field"><span>Dev</span><input id="cmdDev" placeholder="npm run dev" /></label>
+          <label class="field"><span>Test</span><input id="cmdTest" placeholder="npm test" /></label>
+          <label class="field"><span>Lint</span><input id="cmdLint" placeholder="npm run lint" /></label>
+        </div>
+        <label class="field"><span>Folder structure (optional)</span><textarea id="structure" rows="4" class="code"></textarea></label>
+        <label class="field"><span>Never do (one per line)</span><textarea id="dont" rows="3"></textarea></label>
+        <label class="field"><span>Cursor globs</span><input id="globs" placeholder="**/*" /></label>
+      </div>
+      <div class="card out-card">
+        <div class="card-title"><h2>Output</h2><div class="row"><button class="btn small primary" id="copy">Copy</button><button class="btn small" id="dl">Download</button></div></div>
+        <div class="fmts" id="fmts"></div>
+        <div class="file" id="file"></div>
+        <pre class="out" id="out"></pre>
+      </div>
+    </section>
